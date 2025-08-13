@@ -123,8 +123,8 @@ def main_menu():
 
     mainlabel =Label(window,text='Welcome', font='Arial, 24')
     mainlabel.pack(pady=20)
-    mainbut = Button(window, text = 'Enter', font = 'Arial, 10', command=open_program)
-    mainbut.pack(pady=10)
+    mainbut = Button(window, text = 'Enter', font = 'Arial, 30', command=open_program)
+    mainbut.pack(anchor=CENTER)
 
 main_menu()
 window.mainloop()
